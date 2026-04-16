@@ -26,6 +26,7 @@ charts:
     targetRevision: 1.7.1
     # values files needs to be inside this chart
     valueFile: "value-files/admin-dashboard/values.yaml"
+    "iits-admin-dashboard.replicaCount": "2"
 
   kafka:
     namespace: kafka
