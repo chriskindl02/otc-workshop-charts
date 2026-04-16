@@ -14,7 +14,7 @@ defaultDashboard:
     prometheus:
       enabled: "false"
     elasticsearch:
-      enabled: "false"
+      href: "elasticsearch"
     vault:
       enabled: "false"
     otc:
