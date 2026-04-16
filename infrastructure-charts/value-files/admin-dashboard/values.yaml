@@ -7,6 +7,11 @@ ingress:
     traefik.ingress.kubernetes.io/router.middlewares: routing-oidc-forward-auth@kubernetescrd
 defaultDashboard:
   tiles:
+    kibana:
+      enabled: "true"
+      href: "kibana/app/discover"
+      imgSrc: "definitly_not_kibana.svg"
+      imgAlt: "Kibana"
     argocd:
       href: "argocd"
     grafana:
